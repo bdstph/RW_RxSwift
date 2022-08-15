@@ -114,7 +114,7 @@ example(of: "create") {
 	//    observer.onCompleted()
 
 	// 3
-	observer.onNext("?")
+	  observer.onNext("?")
 
 	// 4
 	return Disposables.create()
